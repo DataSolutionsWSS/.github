@@ -1,15 +1,15 @@
-## What changed?
+## Summary
 
-Briefly describe the change.
+<!-- Briefly describe what this pull request changes. -->
 
-## Why?
+## Why
 
-Explain why the change was needed.
+<!-- Explain the reason for the change. Link the relevant Asana task or GitHub issue when useful. -->
 
-## How was it tested?
+## Testing
 
-Describe the relevant testing.
+<!-- Describe how the change was tested. Include relevant commands or results. -->
 
-## Additional information
+## Additional Notes
 
-Include screenshots, deployment notes, known limitations, or other useful context when applicable.
+<!-- Optional: screenshots, deployment considerations, breaking changes, known limitations, or anything reviewers should know. -->
