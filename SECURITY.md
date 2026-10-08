@@ -10,8 +10,7 @@ If you discover a potential security vulnerability in one of our repositories, p
 
 Contact:
 
-**kelvin@worksimpli.com**
-**jhonatan@worksimpli.com**
+**kelvin@worksimpli.com**, **jhonatan@worksimpli.com**
 
 When reporting a vulnerability, please include, when possible:
 
@@ -28,3 +27,17 @@ Please do not include real customer data, passwords, access tokens, or other sec
 Our team will review reports and prioritize investigation based on potential impact and severity.
 
 We may request additional information to reproduce or understand the issue.
+
+We do not publish fixed response-time commitments unless explicitly agreed upon by the organization.
+
+## Supported Versions
+
+Support and maintenance policies vary by project.
+
+Refer to the relevant repository's documentation for information about supported versions and releases.
+
+## Responsible Disclosure
+
+Please allow reasonable time for investigation and remediation before publicly disclosing a reported vulnerability.
+
+Thank you for helping keep our software secure.
