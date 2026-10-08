@@ -1,0 +1,55 @@
+
+name: Improvement Request
+description: Suggest a repository-specific technical improvement.
+title: "[Improvement]: "
+labels: ["enhancement"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for technical improvements that benefit from discussion in GitHub.
+
+        Product planning, priorities, deadlines, and assignments belong in Asana.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Opportunity
+      description: What problem are we trying to solve?
+      placeholder: Describe the current limitation or opportunity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Improvement
+      description: What would you like to change?
+      placeholder: Describe a possible approach.
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Expected Benefits
+      description: How would this improve maintainability, reliability, performance, or developer experience?
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Are there other ways to address this?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add relevant references, examples, or related Asana tasks.
+    validations:
+      required: false
