@@ -1,0 +1,72 @@
+name: Bug Report
+description: Report a reproducible technical problem in this repository.
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug.
+
+        Use this form for repository-specific technical issues.
+        For planned work and project tracking, continue using Asana.
+
+        Do not include credentials, personal data, or security vulnerabilities.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the problem?
+      placeholder: Describe the unexpected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can another developer reproduce the issue?
+      placeholder: |
+        1. Open...
+        2. Perform...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What happens currently?
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant versions, browsers, operating systems, or development environments.
+      placeholder: |
+        Application version:
+        Environment:
+        Browser / OS:
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Include logs, screenshots, or related references when useful. Remove sensitive information.
+    validations:
+      required: false
